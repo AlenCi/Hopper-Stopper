@@ -1,0 +1,29 @@
+
+.fullscreen {
+    width: 100%; /* Adjust the width as needed */
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.no-cursor {
+    cursor: none;
+}
+
+#gameStats {
+    display: flex;
+    align-items: center;
+    flex-direction: column-reverse;
+
+}
+
+#bunnyStats, #carrotStats {
+    display: flex;
+    align-items: center;
+}
+
+#bunnyCount, #carrotCount {
+    padding-left: 5px;
+    font-size: 1.5em;
+}
